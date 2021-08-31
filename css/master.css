@@ -1,0 +1,15 @@
+header {
+    background-color: #5F9AFE;
+}
+
+.testo-evidenziato {
+    background-color: yellow;
+}
+
+#lorem-bianco {
+    color: white;
+}
+
+#sfondo-uno {
+    background-image: url("img/monitor.jpg");
+}
