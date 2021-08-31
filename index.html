@@ -10,18 +10,21 @@
 
     <body>
         <header>
-            <!-- All'interno dell'header inserisco testata con logo e sfondo -->
             <div id="logo">
-                <img src="/img/logo.svg" alt="logo">
+                 <img src="img/logo.svg" alt="logo">
             </div>
+            <!-- All'interno dell'header inserisco testata con logo e sfondo -->  
         </header>
 
         <main>
             <section>
                 <!-- Titolo e Foto  -->
                 <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-                <p>Scritto da The Booleaner</p>
-                <p>il 10/10/2020</p>
+                <div class="scritta-grey">
+                    <p>Scritto da <span id="scritta-azzurra"> The Booleaner</span></p>
+                    <p>il 10/10/2020</p>
+                </div>
+                
                 <div>
                     <figure>
                         <img src="img/tim-1.jpg" alt="Foto 1">
@@ -47,7 +50,7 @@
             <!-- Tabella -->
             <table>
                 <thead>
-                    <tr>
+                    <tr class="riga-blu">
                         <th>Lorem ipsum dolor</th>
                         <th>Lorem ipsum dolor</th>
                         <th>Lorem ipsum dolor</th>
@@ -55,7 +58,7 @@
                 </thead>
 
                 <tbody>
-                    <tr>
+                    <tr class="riga-azzurra">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi modi facilis animi architecto enim vero illum similique sequi excepturi laboriosam quidem corporis aperiam porro itaque neque dolorum, ab cupiditate id.</td>
@@ -65,7 +68,7 @@
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi modi facilis animi architecto enim vero illum similique sequi excepturi laboriosam quidem corporis aperiam porro itaque neque dolorum, ab cupiditate id.</td>
                     </tr>
-                    <tr>
+                    <tr class="riga-azzurra">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi modi facilis animi architecto enim vero illum similique sequi excepturi laboriosam quidem corporis aperiam porro itaque neque dolorum, ab cupiditate id.</td>
@@ -79,8 +82,10 @@
             </section>
 
             <!-- Sezione potrebbero interessarti -->
-            <section id="lorem-bianco">
+            <section>
+                <h3 class="scritta-grey">Potrebebro interessarti</h3>
                 <div id="sfondo-uno">Lorem ipsum dolor</div>
+                <br>
                 <div id="sfondo-due">Lorem ipsum dolor</div>
             </section>
 
