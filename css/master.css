@@ -1,15 +1,66 @@
 header {
     background-color: #5F9AFE;
+    background-image: url("../img/pattern.png");
+    height: 200%;
+}
+
+#logo {
+    width: 18%;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+.scritta-grey {
+    color: grey;
+}
+
+#scritta-azzurra {
+    color: #3AA4E3;
 }
 
 .testo-evidenziato {
     background-color: yellow;
 }
 
-#lorem-bianco {
+table {
+    border-collapse: collapse;
+}
+
+.riga-blu {
+    background-color: #3AA4E3;
     color: white;
 }
 
+.riga-azzurra {
+    background-color: #B1E3F1;
+}
+
+th{
+    width: 30%;
+    border-color: #3AA4E3;
+    text-align: left;
+}
+
 #sfondo-uno {
-    background-image: url("img/monitor.jpg");
+    height: 300px;
+    width: 300px;
+    background-image: url("../img/monitor.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#sfondo-due {
+    height: 300px;
+    width: 300px;
+    background-image: url("../img/graph.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
 }
